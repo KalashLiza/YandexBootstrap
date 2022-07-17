@@ -2,7 +2,7 @@
 
 .time_select {
 	margin-top: 20px;
-	width: 453px;
+	width: 400px;
 }
 
 .form_label {
@@ -17,8 +17,9 @@
 .form-select {
 	border-radius: 24px;
 	font-size: 15px;
-	/* background-image: url("../Icons/check_time_icon.svg"); */
+	/* background-image: url("../библиотека компонентов/Icons/check_time_icon.svg"); */
 	background-size: 16px 20px;
+	background-color: #E2E8F0;
 }
 
 /* Компонент с выбором часового пояса ON*/
@@ -33,4 +34,8 @@
 
 .off {
 	background-image: none;
+}
+
+.btn-bottom {
+	margin-top: 45%;
 }
